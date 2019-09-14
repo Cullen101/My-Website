@@ -1,0 +1,32 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    backgrounds: url("JAPANPIC.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+.navbar-brand{
+    text-align: center;
+}
